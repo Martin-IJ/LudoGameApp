@@ -1,0 +1,122 @@
+@import url("http://fonts.cdnfonts.com/css/cursed-timer-ulil");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #064d3b;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+    color: white;
+    text-transform: uppercase;
+    font-family: Cursed Timer ULiL, sans-serif;
+    height: 15vh;
+}
+
+.show-score{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.group{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: calc(100vh - 15vh);
+}
+
+.change-scores{
+    display: flex;
+    gap: .6rem;
+}
+
+.number{
+    border: 1px solid #6ae4b3;
+    color: #6ae4b3;
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: Cursed Timer ULiL, sans-serif;
+}
+
+.number:hover{
+    background-color: #c2f0dd20;
+}
+
+.number:active{
+    background-color: #f4435b9b;
+}
+
+.home{
+    color: white;
+    text-transform: uppercase;
+}
+
+.scores{
+    background-color: black;
+    color: #f4435a;
+    font-size: 4rem;
+    width: 120px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    font-family: Cursed Timer ULiL, sans-serif;
+}
+
+.change-scores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: #6ae4b3;
+    color: #064d3b;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: Cursed Timer ULiL, sans-serif;
+}
+
+.btn:hover{
+    background-color: #5cc69c;
+}
+
+.btn:active{
+    box-shadow: 0px 0px 20px rgba(38, 38, 38, 0.668);
+    background-color: white;
+    /* color: white; */
+}
+
+.main-score{
+    margin-bottom: 30px;
+}
